@@ -1,3 +1,70 @@
 <h1></h1>This is the html in the dev  branch</h1>
 <h1></h1>Third Conflict Conent</h1>
 <h1></h1>Second Conent Chang  1e</h1>
+<h1></h1>Second Conent Change</h1>
+
+
+
+"VpcId": "vpc-00abad7dd88c560a5",
+
+             "SubnetId": "subnet-033b87dd35765428c",
+            "SubnetId": "subnet-00baf9fa145f1f02c",
+            "SubnetId": "subnet-0d688a71f2c1fbad0",
+            "SubnetId": "subnet-0163704cd0727fc3b",
+            "SubnetId": "subnet-043582cc7a8fe9d2d",
+            "SubnetId": "subnet-0a4edf5c576536881",
+            
+            
+            
+            
+ansible-playbook myfirstProj/ansible/site.yml \
+-e ansible_python_interpreter=/usr/bin/python \
+-e awsaccesskey=AKIARXER3MMNML6LCEMK \
+-e awssecretkey=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 \
+-e vpcid=vpc-00abad7dd88c560a5 \
+-e subnetid=subnet-033b87dd35765428c \
+-e awsregion=us-east-1
+
+
+cp -R java-tomcat-maven-example/pom.xml myfirstProj/
+
+cp -R java-tomcat-maven-example/src myfirstProj/
+
+
+
+ansible-playbook myfirstProj/ansible/site.yml \
+-e ansible_python_interpreter=/usr/bin/python \
+-e awsaccesskey= AKIAU4C5CMGYR3KXUT4K \
+-e awssecretkey= x8Ng6N8JjNPMTXq9vBpfjaHYi/cQylf+XrcqzPHb \
+-e vpcid=  \
+-e subnetid= \
+-e awsregion=us-east-1 \
+-e versionid=1.0
+
+
+vpc-00abad7dd88c560a5
+vpc-00abad7dd88c560a5
+
+
+ansible-playbook  myfirstProj/ansible/deploy.yaml \
+-e ansible_python_interpreter=/usr/bin/python \
+-e awsaccesskey=AKIARXER3MMNML6LCEMK \
+-e awssecretkey=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 \
+-e vpcid=vpc-00abad7dd88c560a5 \
+-e subnetid1=subnet-043582cc7a8fe9d2d \
+-e subnetid2=subnet-00baf9fa145f1f02c \
+-e awsregion=us-east-1 \
+-e versionid=1.0 \
+-e webappimageid=ami-0ebd3999f46073371
+
+
+
+
+
+
+
+touch roles/myfirstProj/tasks/main.yaml
+
+
+mvn install -f myfirstProj/pom.xml
+
